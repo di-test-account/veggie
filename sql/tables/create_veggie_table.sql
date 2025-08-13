@@ -1,0 +1,10 @@
+-- Create or update veggie table
+CREATE OR REPLACE TABLE GITHUB.RAW.VEGGIE (
+    id NUMBER AUTOINCREMENT,
+    name VARCHAR(100),
+    type VARCHAR(50),
+    color VARCHAR(30),
+    season VARCHAR(20),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP(),
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP()
+);
